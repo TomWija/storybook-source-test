@@ -1,0 +1,23 @@
+{
+  "name": "storybook-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 43110"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.0.0-rc.11",
+    "@storybook/addon-controls": "^6.0.0-rc.11",
+    "@storybook/addon-docs": "^6.0.0-rc.11",
+    "@storybook/addons": "^6.0.0-rc.11",
+    "@storybook/react": "^6.0.0-rc.11"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
